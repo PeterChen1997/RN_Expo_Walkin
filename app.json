@@ -1,5 +1,6 @@
 {
   "expo": {
+    "owner": "peterchen97",
     "name": "test",
     "slug": "test",
     "version": "1.0.0",
@@ -18,16 +19,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.peterchen97.test"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.peterchen97.test"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "84b6ae47-0f06-499c-aecc-1954a5bd091a"
+      }
     }
   }
 }
